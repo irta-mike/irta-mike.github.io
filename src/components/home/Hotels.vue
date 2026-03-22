@@ -56,8 +56,9 @@ function handleOptionClick (selected: string) {
                     <h2 class="text-green-800">Melville Castle Hotel</h2>
                     <a class="text-[14px]" href="https://www.google.com/maps/place/Melville+Castle+Hotel/data=!4m2!3m1!1s0x4887becc84d0aec9:0xd875e77214e6794f?sa=X&ved=1t:242&ictx=111">Gilmerton Rd, Edinburgh EH18 1AP, United Kingdom</a>
                     <div class="border-t border-green mt-3 pt-3 text-[14px]">
-                        <p class="text-mb">We will be staying at the venue from XX to XX.</p>
+                        <p class="text-mb">We will be staying at the venue from 16th to the 17th (day before and during the event).</p>
                         <p>To make a reservation, use this <a href="">link</a> to use our block discount.</p>
+                        <p>Prior to, and after the event we will be staying at XYZ hotel.</p>
                     </div>
                 </template>
             </ServicesTemplate>
