@@ -1,7 +1,19 @@
 # irta-and-mike
 
-1. Should be able to push update with: `npm run deploy` from within the main brach. This will otehrwise
-2. May need depencies: `npm install gh-pages --save-dev`
+## Website url
+
+- Github url: https://irta-mike.github.io/
+
+## Workflow
+
+0. You may need to install these dependencies
+   - `npm install gh-pages --save-dev`
+1. `git clone https://github.com/irta-mike/irta-mike.github.io.git`
+2. `cd irta-mike.github.io`
+3. Make any changes as needed, and then merge changes into the main branch.
+4. Run `npm run deploy` (from within the main branch)
+  -  This will 'push' the '/dist' folder to the gh-pages branch from which the page pulls updates.
+5. You can view in 'settings' on github.com the branch that is deploying the website (from gh-pages).
 
 ## Resources
 
