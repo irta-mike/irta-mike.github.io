@@ -11,6 +11,7 @@ export default defineConfig({
     vue(),
     svgLoader()
   ],
+  base: "/irta-mike.github.io/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
