@@ -2,7 +2,7 @@
 
 ## Website url
 
-- Github url: https://irta-mike.github.io/
+- public facing url: https://irta-mike.github.io/
 
 ## Workflow
 
