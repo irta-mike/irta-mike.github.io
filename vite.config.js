@@ -7,6 +7,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: "/irta-mike.github.io/",
   plugins: [
     vue(),
     svgLoader()
@@ -15,6 +16,5 @@ export default defineConfig({
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
-  },
-  base: "/irta-mike/"
+  }
 })
