@@ -18,7 +18,7 @@
     "@fortawesome/free-solid-svg-icons": "^6.7.2",
     "@fortawesome/vue-fontawesome": "^3.0.8",
     "latest-version": "^9.0.0",
-    "vue": "^3.3.4",
+    "vue": "^3.3.4"
   },
   "devDependencies": {
     "@tailwindcss/aspect-ratio": "^0.4.2",
