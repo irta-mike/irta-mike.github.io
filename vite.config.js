@@ -7,7 +7,7 @@ import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: "/irta-mike.github.io/",
+  base: "/irta-mike/irta-mike.github.io/",
   plugins: [
     vue(),
     svgLoader()
