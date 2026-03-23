@@ -1,15 +1,16 @@
 <script setup lang="ts">
-import Logo from '../../resources/assets/logo.svg';
-
 const emit = defineEmits(['toggleMenu']);
 
 </script>
 
 <template>
     <div class="bg-white fixed flex md:hidden flex-col h-screen text-green w-screen z-[1]">
-        <div class="flex flex-row items-center justify-between pb-4 pt-6 page-px shadow-sm transition-colors uppercase w-full z-20">
-            <a href="" class="ml-[-10px]">
-                <Logo />
+            <div class="flex flex-row items-center justify-between pb-4 pt-6 page-px shadow-sm transition-colors uppercase w-full z-20">
+                <a  class="font-alex ml-[-10px] text-[48px]" 
+                :class="!whiteBg && 'text-white'"
+                href="" 
+            >
+                Irta & Mike
             </a>
             <font-awesome-icon 
                 icon="fa-solid fa-x" 

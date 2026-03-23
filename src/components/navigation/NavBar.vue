@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted, onUnmounted, ref } from 'vue';
-import Logo from '../../resources/assets/logo.svg';
 
 const emit = defineEmits(['toggleMenu']);
 
