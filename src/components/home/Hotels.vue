@@ -56,20 +56,24 @@ function handleOptionClick (selected: string) {
                     <h2 class="text-green-800">Melville Castle Hotel</h2>
                     <a class="text-[14px]" href="https://www.google.com/maps/place/Melville+Castle+Hotel/data=!4m2!3m1!1s0x4887becc84d0aec9:0xd875e77214e6794f?sa=X&ved=1t:242&ictx=111">Gilmerton Rd, Edinburgh EH18 1AP, United Kingdom</a>
                     <div class="border-t border-green mt-3 pt-3 text-[14px]">
-                        <p class="text-mb">We will be staying at the venue from 16th to the 17th (day before and during the event).</p>
-                        <p>To make a reservation, use this <a href="">link</a> to use our block discount.</p>
-                        <p>Prior to, and after the event we will be staying at XYZ hotel.</p>
+                        <p class="mb-3">Block: £20 discount</p>
+                        <p class="mb-3">To reserve a room under our block, email events@melvillecastle.com and reference the "Irta & Mike Wedding". </p>
+                        <p>We will be staying at this hotel the nights of July 16th and 17th.</p>
                     </div>
                 </template>
             </ServicesTemplate>
 
             <ServicesTemplate v-if="activeTab === 'hotel'">
                 <template #image>
-                    
+                    <img name="image" class="tab-image" src="../../resources/assets/images/hotels/residence-inn.jpg"/>
                 </template>
 
                 <template #body>
-                    <span class="italic">* Information coming soon</span>
+                    <h2 class="text-green-800">Residence Inn by Marriott Edinburgh</h2>
+                    <a class="text-[14px]" href="https://www.google.com/maps/place/Residence+Inn+by+Marriott+Edinburgh/@55.9438529,-3.1954068,17z/data=!4m9!3m8!1s0x4887c79933a42d19:0xed370c71a9c56538!5m2!4m1!1i2!8m2!3d55.9438529!4d-3.1928319!16s%2Fg%2F1tf_mwnw?entry=ttu&g_ep=EgoyMDI2MDMxOC4xIKXMDSoASAFQAw%3D%3D">Quartermile, 36 Simpson Loan, Edinburgh EH3 9GG, United Kingdom</a>
+                    <div class="border-t border-green mt-3 pt-3 text-[14px]">
+                        <p>We do not have a block for this hotel. However, we will be staying here the days before and after the wedding: July 13-15 and 18-20.</p>
+                    </div>
                 </template>
             </ServicesTemplate>
         </div>
