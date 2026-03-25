@@ -54,7 +54,7 @@ onUnmounted((): void => {
                 Hotels
             </a>
             <a 
-                href="#hotels" 
+                href="#activities" 
                 class="cursor-pointer  mx-3" 
                 :class="whiteBg ? 'hover:text-green' : 'hover:text-green-darkest'"
             >
