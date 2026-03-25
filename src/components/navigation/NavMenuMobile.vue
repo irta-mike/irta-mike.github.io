@@ -18,9 +18,9 @@ const emit = defineEmits(['toggleMenu']);
                 @click="emit('toggleMenu')" />
         </div>
         <div class="flex flex-col font-semibold h-full mt-2 page-px text-[20px] uppercase">
-            <a href="#about" @click="emit('toggleMenu')" class="cursor-pointer my-4 hover:text-green-darkest">About</a>
-            <a href="#services" @click="emit('toggleMenu')" class="cursor-pointer my-4 hover:text-green-darkest">Services</a>
-            <a href="#contact" @click="emit('toggleMenu')" class="cursor-pointer my-4 hover:text-green-darkest">Contact</a>
+            <a href="#info" @click="emit('toggleMenu')" class="cursor-pointer my-4 hover:text-green-darkest">General Info</a>
+            <a href="#hotels" @click="emit('toggleMenu')" class="cursor-pointer my-4 hover:text-green-darkest">Hotels</a>
+            <a href="#activities" @click="emit('toggleMenu')" class="cursor-pointer my-4 hover:text-green-darkest">Activities</a>
         </div>
     </div>
 </template>
