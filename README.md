@@ -44,3 +44,6 @@ Structured with a 'subtree' for the gh-pages branch.
  2057  git subtree push --prefix dist origin gh-pages
 
 ```
+
+- If website is not showing up, try adding a file called 'CNAME' with the contents 'irta-mike.com' in it in the 'gh-pages' branch.
+     - It seems the CNAME file will automatically setup the DNS for the settings/pages to ensure that our page forwards automatically.
